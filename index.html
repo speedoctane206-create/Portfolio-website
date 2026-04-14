@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vipul Singh Parmar | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">VSP</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-text reveal">
+        <p class="intro">Hello, I am</p>
+        <h2>Vipul Singh Parmar</h2>
+        <p class="role">AI Trainee</p>
+        <p id="typingText" class="typing-text"></p>
+        <button id="themeToggle" class="btn">Toggle Theme</button>
+      </div>
+      <div class="hero-photo reveal">
+        <img
+          src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
+          alt="Professional portrait"
+        />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section reveal">
+      <h3>About Me</h3>
+      <p>
+        I am Vipul Singh Parmar, an AI Trainee with a strong interest in
+        machine learning, data science, and building practical AI solutions.
+        I enjoy learning new technologies and improving my problem-solving skills.
+      </p>
+    </section>
+
+    <section id="photos" class="section reveal">
+      <h3>Photo Gallery</h3>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Laptop and code setup" />
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="AI and data concept visual" />
+        <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=800&q=80" alt="Artificial intelligence robot visual" />
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <h3>Skills</h3>
+      <div class="skills-grid">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>Machine Learning Basics</span>
+        <span>Data Analysis</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <h3>Projects</h3>
+      <div class="project-controls">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="web">Web</button>
+        <button class="chip" data-filter="ai">AI</button>
+      </div>
+      <div class="project-card" data-type="web">
+        <h4>Portfolio Website</h4>
+        <p>A personal portfolio website built with basic HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card" data-type="ai">
+        <h4>AI Practice Projects</h4>
+        <p>Hands-on mini projects to understand AI and machine learning concepts.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <h3>Contact</h3>
+      <p>Email: vipul@example.com</p>
+      <div class="social-links">
+        <a class="social-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a class="social-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <p id="clock"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Vipul Singh Parmar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
